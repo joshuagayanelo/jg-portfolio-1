@@ -1,4 +1,4 @@
-/*Start of Default Values*/
+/*GLOBAL SETTINGS*/
 *{
 	font-family: 'Poppins', sans-serif;
 }
@@ -10,6 +10,7 @@ html{
 body {
 	overflow: overlay;
 	line-height: 1.6rem;
+	overflow-x: hidden;
 }
 
 h6{
@@ -35,13 +36,15 @@ button:hover{
 #spacer{
 	visibility: hidden;
 }
-/*End of Default Values*/
+/*END OF GLOBAL SETTINGS*/
 
 
 
-/*Start of Navbar*/
+
+
+/*NAVBAR*/
 div #navPages{
-	font-size: 14px;
+	font-size: .9rem !important;
 	font-weight:500;
 }
 
@@ -50,14 +53,21 @@ div #pageItem{
 	letter-spacing: 1.6;
 }
 
+div #nav-logo{
+	height: 20px;
+	width: auto;
+}
+
 /*div#fab-nav{
 	background-color: #FCA311 ;
 }*/
-/*End of Navbar*/
+/*END OF NAVBAR*/
 
 
 
-/*Start of About Section*/
+
+
+/*HOME*/
 div #intro {
 	padding-top: 10%;
 }
@@ -104,10 +114,42 @@ div #intro {
 	border-color: transparent;
 	font-weight: 700;
 }
+/*END OF HOME*/
 
-/*End of About Section*/
 
-/*Start of Footer*/
+
+
+
+/*ABOUT*/
+
+#img-tools{
+	/*background-color: blue;*/
+	padding-top: 23%;
+}
+/*END OF ABOUT*/
+
+
+
+
+/*PRE-FOOTER*/
+#pre-footer{
+	background-color: #14213D;
+	height: 300px;
+}
+
+#pre-footer-note{
+	font-weight: 700;
+	font-size: 45px;
+	color: white;
+	line-height: 40px;
+}
+/*END OF PRE-FOOTER*/
+
+
+
+
+
+/*FOOTER*/
 #footer{
 	background-color: #FCA311;
 	height: 50px;
@@ -118,8 +160,11 @@ div #intro {
 	font-size: 12px;
 	color: #14213D;
 }
+/*END OF FOOTER*/
 
-/*End of Footer*/
+
+
+
 
 /*PORTFOLIO*/
 #name-portfolio-1{
@@ -143,7 +188,7 @@ div #intro {
 	font-size: 67px ;
 	font-weight: 700 ;
 	letter-spacing: -0.06em;
-	line-height: 0.1;
+	line-height: 55px;
 	opacity: 15%;
 }
 
@@ -162,8 +207,12 @@ div	#cstm-link-happen-section{
 	text-decoration: none;
 	color: #FCA311;
 }
+/*END OF PORTFOLIO*/
 
-/*CONTACT*/
+
+
+
+/*INQUIRE*/
 #btnSubmit {
 	background-color: #FCA311;
 	border-color: transparent;
@@ -181,4 +230,4 @@ div	#cstm-link-happen-section{
 	width: 100%;
 	color: black;
 }
-
+/*END OF INQUIRE*/
