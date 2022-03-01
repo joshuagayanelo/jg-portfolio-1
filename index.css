@@ -27,6 +27,7 @@ a{
 
 a:hover{
 	color: #FCA311;
+	text-decoration: none;
 }
 
 button:hover{
@@ -56,6 +57,7 @@ div #pageItem{
 div #nav-logo{
 	height: 20px;
 	width: auto;
+	margin-bottom: .5rem;
 }
 
 /*div#fab-nav{
@@ -94,7 +96,7 @@ div #intro {
 	font-weight: 500;
 	padding-top: 2rem;
 	font-size: 14px;
-	letter-spacing:-0.05em;
+	/*letter-spacing:-0.05em;*/
 	line-height: 1.6;
 	width: 100%;
 }
@@ -106,7 +108,7 @@ div #intro {
 
 #btn-intro{
 	margin-top: 1rem;
-	letter-spacing:1px;
+	letter-spacing:0.5px;
 	border-radius: 50px;
 	padding: .7rem 1.2rem .7rem 1.2rem;
 	background-color: #FCA311;
@@ -141,6 +143,11 @@ div #pre-footer-arrow{
 	width: auto;
 	filter: invert(100%);
   	-webkit-filter: invert(100%);
+  }
+
+  div #elevate-icon{
+  	color: white !important;
+  	text-decoration: none;
   }
 /*END OF PRE-FOOTER*/
 
@@ -216,6 +223,17 @@ div #pre-footer-arrow{
 	color: #DEDEDF;
 }
 
+#card-btn{
+	margin-top: 1rem;
+	letter-spacing:0.5px;
+	border-radius: 50px;
+	padding: .7rem 1.2rem .7rem 1.2rem;
+	background-color: #FCA311;
+	color: white;
+	border-color: transparent;
+	font-weight: 700;
+}
+
 div #cstm-link-whatido-section{
 	/*text-decoration: none;*/
 	color: #DEDEDF;
@@ -246,19 +264,39 @@ div	#cstm-link-happen-section{
 
 /*INQUIRE*/
 #btnSubmit {
-	background-color: #FCA311;
-	border-color: transparent;
+	margin-top: -.5rem;
+	letter-spacing:0.5px;
 	border-radius: 50px;
 	padding: .7rem 1.2rem .7rem 1.2rem;
+	background-color: #FCA311;
+	color: white;
+	border-color: transparent;
+	font-weight: 700;
 	width: 100%;
 }
 
 #btnReset {
 	background-color: E5E5E5;
-	border-color: transparent;
+	margin-top: 1rem;
+	letter-spacing:0.5px;
 	border-radius: 50px;
 	padding: .7rem 1.2rem .7rem 1.2rem;
-	width: 100%;
+	/*background-color: #FCA311;*/
 	color: black;
+	border-color: transparent;
+	font-weight: 700;
+	width: 100%;
+}
+
+#exampleFormControlInput1::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightgray;
+}
+
+#exampleFormControlInput2::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightgray;
+}
+
+#exampleFormControlTextarea1::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightgray;
 }
 /*END OF INQUIRE*/
