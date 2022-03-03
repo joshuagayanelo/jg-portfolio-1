@@ -254,13 +254,12 @@ div	#cstm-link-happen-section{
 	color: #DEDEDF;
 }
 
-#carousel-text-shadow{
-	text-shadow: 0px 0px 50px black
+
+#carousel-text-bg{
+	color: #10022c;
 }
 
-#carousel-text-gray{
-	color: darkslategray;
-}
+
 /*END OF PORTFOLIO*/
 
 
